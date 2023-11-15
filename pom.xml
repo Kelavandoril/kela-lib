@@ -6,10 +6,9 @@
 
     <groupId>kela.lib</groupId>
     <artifactId>kela-lib</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>pom</packaging>
     <modules>
-        <module>Graph</module>
         <module>Graph</module>
     </modules>
 
@@ -17,6 +16,8 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <revision>1.0-SNAPSHOT</revision>
+        <junit.version>5.9.2</junit.version>
     </properties>
     
 </project>
