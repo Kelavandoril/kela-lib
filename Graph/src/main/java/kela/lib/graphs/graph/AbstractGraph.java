@@ -14,10 +14,6 @@ public abstract class AbstractGraph<N extends GraphNode<?>> implements Graph<N> 
     protected Collection<N> vertices;
     protected Collection<Edge<N>> edges;
 
-    public AbstractGraph() {
-        this(true);
-    }
-
     public AbstractGraph(boolean isSimple) {
         this.vertices = new HashSet<>();
         edges = isSimple ? new HashSet<>() : new ArrayList<>();

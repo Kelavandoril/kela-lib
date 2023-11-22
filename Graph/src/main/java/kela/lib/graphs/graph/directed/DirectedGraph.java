@@ -5,6 +5,9 @@ import kela.lib.graphs.graph.AbstractGraph;
 import kela.lib.graphs.node.GraphNode;
 
 public class DirectedGraph<N extends GraphNode<?>> extends AbstractGraph<N> {
+    public DirectedGraph() {
+        this(true);
+    }
     public DirectedGraph(boolean isSimple) {
         super(isSimple);
     }
